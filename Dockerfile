@@ -7,7 +7,7 @@
 FROM       ubuntu:14.04
 
 # Format: MAINTAINER Name <email@addr.ess>
-MAINTAINER M.Y. Name <anthony.zavadil@gmail.com>
+MAINTAINER M.Y. Name anthony.zavadil@gmail.com
 
 # Installation:
 # Import MongoDB public GPG key AND create a MongoDB list file (i.e. MongoDB repository file for the package manager.)
