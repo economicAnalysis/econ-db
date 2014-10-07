@@ -20,6 +20,10 @@ RUN apt-get update && apt-get install -y mongodb-org
 # Create the MongoDB data directory
 RUN mkdir -p /data/db
 
+# 
+ADD     econdb_docker_rsa.pub /tmp/econdb_docker_rsa.pub
+RUN     cat /tmp/econdb_docker_rsa.pub >> /root/.ssh/authorized_keys && rm -f /tmp/econdb_docker_rsa.pub
+
 # Expose port 27017 from the container to the host
 EXPOSE 27017
 
