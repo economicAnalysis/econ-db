@@ -4,7 +4,7 @@
 
 
 # Format: FROM    repository[:version]
-FROM       ubuntu:14.04
+FROM ubuntu:14.04
 
 # Format: MAINTAINER Name <email@addr.ess>
 MAINTAINER anthony.zavadil@gmail.com
